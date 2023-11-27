@@ -1,0 +1,49 @@
+*,*::before,*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,html{
+  overflow-x: hidden;
+  /* overflow-y: scroll; */
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+section{
+  height: 100dvh;
+}
+
+.container{
+  /* overflow-y: hidden; */
+  position: relative;
+  width: 100dvw;
+  height: 100dvh;
+  background-color: #111;
+  color: white;
+  font-size: 50px;
+}
+
+.item{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  transform: translateY(100%);
+}
+
+.one{
+  background-color: blue;
+}
+.two{
+  background-color: gold;
+}
+.three{
+  background-color: red;
+}
+.four{
+  background-color: brown;
+}
